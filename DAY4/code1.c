@@ -10,25 +10,25 @@ int main()
     scanf("%d", &n);
     n1 = n;
 
-    while (n > 0)
+    while (n1 > 0)
     {
         count++;
-        n = n / 10;
+        n1 = n1 / 10;
     }
     printf("number of digits : %d\n", count);
 
-    n = n1;
+    n1 = n;
 
-    while (n > 0)
+    while (n1 > 0)
     {
-        rem = n % 10;
+        rem = n1 % 10;
         sum = sum + pow(rem, count);
-        n = n / 10;
+        n1 = n1 / 10;
     }
 
     printf("sum of digits to power of digits count of a number : %d\n", sum);
 
-    if (sum == n1)
+    if (sum == n)
     {
         printf("the number is armstrong\n");
     }
