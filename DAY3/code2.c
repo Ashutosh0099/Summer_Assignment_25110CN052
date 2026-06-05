@@ -20,4 +20,5 @@ int main()
             printf("%d is prime\n", i);
         }
     }
+    return 0;
 }
