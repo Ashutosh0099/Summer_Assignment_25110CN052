@@ -9,7 +9,7 @@ int main()
 
     if (n <= 0)
     {
-        printf("enter a positive integer");
+        printf("enter a positive integer\n");
         return 0;
     }
 
