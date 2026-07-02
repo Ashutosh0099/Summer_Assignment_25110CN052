@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci(int n)
+void fibonacci(int n)
 {
     int t1 = 0;
     int t2 = 1;
@@ -25,7 +25,6 @@ int fibonacci(int n)
             t2 = temp;
         }
     }
-    return 0;
 }
 
 int main()
